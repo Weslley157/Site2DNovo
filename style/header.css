@@ -1,17 +1,18 @@
-.cabeçalho_menu-hamburguer{
+.cabecalho__menu-hunburger{
     width: 24px;
     height: 24px;
-    background-image:  url(../img/Menu.svg);
+    background-image: url(../img/Menu.svg);
     background-repeat: no-repeat;
     background-position: center;
     display: inline-block;
 }
 
-.cabeçalho{
+.cabecalho{
     background-color: var(--branco);
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: relative;
 }
 
 .container{
@@ -19,7 +20,7 @@
     align-items: center;
 }
 
-.container_imagem{
+.container__imagem{
     padding: 1em;
 }
 
@@ -37,10 +38,11 @@
 .lista-menu__titulo,
 .lista-menu__item{
     padding: 1em;
-    background-color: var(--branco);
+    background-color: var(--branco)
 }
+
 .lista-menu__titulo{
-    color: var(--branco);
+    color: var(--laranja);
     font-weight: 700;
 }
 
@@ -51,6 +53,7 @@
     background-clip: text;
     text-transform: uppercase;
 }
+
 .container__botao{
     display: none;
 }
